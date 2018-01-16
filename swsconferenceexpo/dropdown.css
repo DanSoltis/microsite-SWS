@@ -3,8 +3,8 @@
     background-color: #333333;
     color: white;
     padding: 16px;
-    padding-left: 37px;
-    padding-right: 37.5px;
+   /* padding-left: 37px;
+    padding-right: 37.5px; */
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -39,9 +39,8 @@ button {
 .dropdown-content {
     display: none;
     position: relative;
-    background-color: #f9f9f9;
-    max-width: 219px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #333333;
+    max-width: 176px;
     z-index: 999;
     border: none;
 }
@@ -50,15 +49,14 @@ button {
     display: none;
     position: relative;
     background-color: #333333;
-    max-width: 225.5px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    max-width: 177px;
     z-index: 999;
     border: none;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
+    color: #ffffff;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -74,7 +72,7 @@ button {
 
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #444444}
+.dropdown-content a:hover {background-color: #a9c03d;}
 
 .dropdown-menu a:hover {background-color: #444444}
 
@@ -89,7 +87,7 @@ z-index: 999;}
 
 
 select {
-    background-color: #333333;
+    background-color: #333333; 
     color: white;
     width: 150px;
     height: 50px;
