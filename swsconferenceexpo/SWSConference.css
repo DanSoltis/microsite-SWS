@@ -453,7 +453,7 @@ button {
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
+  padding: 30px 12px;
   position: absolute;
   top: 0;
 }
@@ -469,6 +469,7 @@ button {
   float: left;
   width: 16.66%;
 }
+
 
 /* Add a transparency effect for thumnbail images */
 .demo {
