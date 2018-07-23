@@ -30,7 +30,8 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 16px .9525em;
+    /*padding: 16px .9525em;*/
+    padding: 16px 1.26171em;
     text-decoration: none;
     
 }
