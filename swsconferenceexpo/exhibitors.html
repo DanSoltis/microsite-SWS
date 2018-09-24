@@ -1,432 +1,273 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>SWS Conference &amp; Exhibition 2018</title>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Storm Water Solutions Conference &amp; Exposition 2018</title>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89117526-14"></script>
+<!-- Styling -->
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link href="https://fonts.googleapis.com/css?family=Gudea:400,400i,700" rel="stylesheet">
+			<link href="css/dropdown.css" rel="stylesheet" type="text/css">
+
+
+<!-- JQ -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.sticky.js"></script>
 <script>
+    $(window).load(function(){
+      $("#header").sticky({ topSpacing: 0 });
+    });
+  </script>
+
+<!--[if IE]>  
+<script>  
+	document.createElement("header");  
+	document.createElement("footer");  
+	document.createElement("nav");  
+	document.createElement("article");  
+	document.createElement("section");  
+</script>  
+<![endif]-->
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89117526-10"></script>
+<script>
+
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+
+  function gtag(){dataLayer.push(arguments)};
+
   gtag('js', new Date());
 
-  gtag('config', 'UA-89117526-14');
-</script>
 
-  <link href="SWSConference.css" rel="stylesheet" type="text/css">
-  <link href="dropdown.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-  <script src="dropdown.js" type="text/javascript"></script>
+
+  gtag('config', 'UA-89117526-10');
+
+</script>
 </head>
 
-<style>
-
-
-a.logo:hover {
-  background-color: white;
-}
-
-
-
-#green_header {
-  background-color: #a9c03c;
-  
-  height: 100px;
-  margin-top: 25px;
-  padding-left: 25px;
-  padding-top: .001em;
-  color: white;
-  z-index: -1;
-} 
-
-#main img {
-  width: 275px;
-  margin-bottom: 20px;
-  margin-right: 50px;
-
-}
-
-#main p {
-  font-size: 11pt;
-}
-
-#main a {
-  color: black;
-
-}
-
-#main a:hover {
-  color: #a9c03c;
-}
-
-#exhibitors {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 0px;
-}
-
-table td {
-  vertical-align: top;
-  height: 230px;
-}
-
-table {
-  h
-}
-
-
-
-
-
-
-
-
-</style>
-
 <body>
-  <div id="page">
-
-    <!-- start of header -->
-    <div id="header">
-      <div id="logo" align="center"><img src="images/SWSConference18-logo.jpg" width="307" height="181" alt="SWS Conference & Exhibition"/></div>
-      <div id="date">
-        <p>November 13, 2018 &mdash; November 15, 2018</p>
-      </div>
-      <div id="header-image">
-       <div id="captioned-gallery">
-         <figure class="slider">
-          <figure>
-           <img src="images/Tinley2.jpg" alt="Tinley Park Convention Center">
-         </figure>
-         <figure>
-           <img src="images/Tinley5.jpg" alt="Tinley Park Convention Center">
-         </figure>
-         <figure>
-           <img src="images/Tinley7.jpg" alt="Tinley Park Convention Center">
-         </figure>
-         <figure>
-           <img src="images/Tinley6.jpg" alt="Tinley Park Convention Center">
-         </figure>				
-       </figure>
-     </div>
-   </div>
-
-   <div id="navigation">
-    <nav>
-     <ul>
-    <li><a href="index.html">Home</a></li>
-    
-      
-      <li><a href="https://www.cvent.com/events/2017-sws-conference-exhibition/registration-8ebf73396d1b4b1e8eaaace5d74dfd47.aspx?fqp=true" target="_blank">Registration</a></li>
-
-    <li><a href="fees.html">Fees</a></li>
-       
-       <li class="dropdown2" >
-        <button onclick="myFunction2()" class="dropbtn2 " >Agenda</button>
-        <div id="myDropdown2" class="dropdown2-content">
-          <a href="glance.html">At a Glance</a>
-          <a href="agenda.html" >Full Agenda</a>
-          
-
-        </div>
-
-      </li>
-       
+<div id="header">
+  <nav> <a href="#" id="menu-icon"></a>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
+        <li><a href="fees.html">Fees</a></li>
        <li class="dropdown" >
-          <button onclick="myFunction()" class="dropbtn active" >Sponsors/Exhibitors</button>
+          <button onclick="myFunction()" class="dropbtn">Sponsors/Exhibitors</button>
           <div id="myDropdown" class="dropdown-content">
-              <a href="become_sponsor_exhibitor.html" >Become a Sponsor/Exhibitor</a>
-              <a href="exhibitors.html" class="active">Exhibitors</a>
+              <a href="become_exhibitors.html" >Become a Sponsor/Exhibitor</a>
+              <a href="exhibitors.html" >Exhibitors</a>
               <a href="sponsors.html" >Sponsors</a>
           </div>
           
       </li>
-
-        <li><a href="directions.html">Directions/Hotel</a></li>
-      
-          <li><a href="contact.html">Contact Us</a></li>
-  </ul>
-</nav>
-
-</div>
-
-<!--   <div id="navigation">
-    <nav>
-     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
-      <li><a href="directions.html">Directions</a></li>
-      <li class="active"><div class="dropdown" class="active">
-          <button onclick="myFunction()" class="dropbtn" >Exhibitors</button>
-          <div id="myDropdown" class="dropdown-content">
-              <a href="sponsors.html">Become an Exhibitor</a>
-              <a href="TEST_exhibitors2.html" >Exhibitors</a>
-          </div>
-          </div>
-      </li>
-     
-      <li><div class="dropdown">
-          <button onclick="myFunction2()" class="dropbtn">Sponsors</button>
-          <div id="myDropdown2" class="dropdown-content">
-              <a href="sponsors.html">Become a Sponsor</a>
-              <a href="TEST_sponsors.html">Sponsors</a>
-          </div>
-          </div>
-      </li>
-     
-      <li ><a href="papers.html">Call for Papers</a></li>
-    </ul>
+        <li><a href="http://www.cvent.com/d/4tqvdk/4W" target="_blank">Register</a></li>
+			<li><a href="directions.html">Directions/Hotel</a></li>
+			<li><a href="gallery.html">2017 Gallery</a></li>
+			<li class="last"><a href="contact.html">Contact Us</a></li>
+      </ul>
   </nav>
-
-</div> -->
-<p>To view the conference floor plan, <a href="https://s3.amazonaws.com/sgcimages/2017/10/Layout%20-%20Tinley%20Park.pdf" target="_blank" class="blue">click here</a>.
-
-<div id="green_header">
-  <h1>THANK YOU TO OUR EXHIBITORS</h1>
 </div>
-</div>
-<!-- end of header -->
-
-<!-- start of body -->
-<div id="main">
-  <!--<p style="font-size: 12pt;">Thank you for exhibiting at the 2017 Storm Water Solutions Conference &amp; Exhibition. Your participation contributes to the overall success of the conference, and we appreciate your dedication to this industry. The Conference &amp; Exhibition affords a unique opportunity to directly interact with federal, state and local agencies, educational institutions, storm water managers, consultants, engineers, contractors, and designers — all of whom have a direct interest in storm water quality-related issues and technologies.</p>
-  <br> -->
-  <table width="915" border="0" cellpadding="0" cellspacing="0">
-    <tbody>
-   
-      
-      <tr>
-        <td>
-          <a class="logo" href="http://www.biocleanenvironmental.com" target="_blank"><img src="logos/exhibitors/bio_clean.png" alt="BioClean, A Forterra  Company"></a>
-        </td>
-        <td>
-          <p><a href="http://www.biocleanenvironmental.com" target="_blank"><strong>BioClean, A Forterra Co. - Booth 315</strong></a><br>Since 1999, Bio Clean has been helping municipalities, engineers, developers, and contractors comply with constantly changing storm water regulations – it has completed 1000’s of installations nationwide. Its product line covers every category of storm water solutions.
-</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a class="logo" href="http://www.blocksom.com" target="_blank"><img src="logos/exhibitors/blocksom.png" alt="Blocksom"></a>
-        </td>
-        <td>
-          <p><a href="http://www.blocksom.com" target="_blank"><strong> Blocksom &amp; Co.</strong></a> <br> A manufacturer of natural fiber products, Blocksom &amp; Co. provides Inlet Filter, a cost-effective BMP for construction-phase NPDES II compliance.</p>
-        </td>
-      </tr>
-     
-      <tr>
-        <td>
-         <a class="logo" href="http://www.countymaterials.com" target="_blank"> <img src="logos/sponsors/bronze/countymaterials.png" alt="County Materials"></a>
-       </td>
-       <td>
-        <p><a href="http://www.countymaterials.com" target="_blank"><strong> Country Materials Corp. - Booth 200</strong></a><br>County Materials Corp. is a Wisconsin-based company that produces and supplies 
-construction and landscaping products throughout the U.S. County Materials was founded in 1946 and is a family-owned company. Products include concrete pipe, manholes, culverts and permeable pavers.</p>
-      </td>
-    </tr>
-   
-    <tr>
-      <td>
-        <a class="logo" href="http://www.envirolok.com" target="_blank"><img src="logos/sponsors/new/Envirolok.png" alt="Envirolok"></a>
-      </td>
-      <td>
-        <p><a href="http://www.envirolok.com" target="_blank"><strong> Envirolok - Booth 320</strong></a><br>
-          Envirolok’s patented tan bag technology provides permanent vegetated solutions by combining the engineered strength of soil with the principles of plant ecology. Its non-woven geotextile bags permanently encapsulate soil for maximized stability. Further reinforcement is achieved through the specialized connecting spikes. For more complex projects, the system is easily compatible with geogrid and other anchoring systems. Envirolok is simple and requires no extensive footings or engineered backfill. Minimal excavation allows for easy construction with minimal impact to the land. 
-</p>
-      </td>
-    </tr>
-		<tr>
-      <td>
-        <a class="logo" href="http://www.feelgoodinc.com" target="_blank"><img src="logos/exhibitors/feelgood.png" alt="Feel Good, Inc."></a>
-      </td>
-      <td>
-        <p><a href="http://www.feelgoodinc.com" target="_blank"><strong>Feel Good Inc.</strong></a><br>
-         Feel Good Inc. provides portable TENS (transcutaneous electrical nerve stimulation) units offering wide variety of benefits, including alleviating back, nerve and diabetic pain and migraines. Our units can also improve circulation, sleep patterns and have been shown to decrease the use of pain relievers that can cause negative side effects. 
-</p>
-      </td>
-    </tr>
-   
-  
-    <td>
-      <a class="logo" href="http://www.foresternetwork.com" target="_blank"><img src="logos/sponsors/new/Forester.png" alt="Forester Media"></a>
-    </td>
-    <td>
-      <p><a href="http://www.foresternetwork.com" target="_blank"><strong>Forester Media - Booth 117</strong></a><br>Established in 1990, Forester Media publishes a number of websites, digital newsletters and water industry trade publications including Stormwater, the Journal for Surface Water Quality Professionals, and Erosion Control, the Journal for Erosion &amp; Sediment Control Professionals. 
-</p>
-    </td>
-  </tr> 
-  <tr>
-    <td>
-      <a class="logo" href="http://www.FrogCreek.partners" target="_blank"><img src="logos/sponsors/new/FrogCreekPartners.png" alt="Frog Creek Partners"></a>
-    </td>
-    <td>
-      <p><a href="http://www.frogcreek.partners" target="_blank"><strong> Frog Creek Partners - Booth 106</strong></a><br>Frog Creek Partners is an environmental technology company that specializes in storm water filtration products, pollution data services and raising awareness to protect Earth’s most valuable resource: water.
-</p>
-    </td>
-  </tr> 
-  
-	<tr>
-    <td>
-      <a class="logo" href="http://www.greenblue.com" target="_blank"><img src="logos/sponsors/new/GBU.png" alt="GreenBlue Urban"></a>
-    </td>
-    <td>
-      <p><a href="http://www.greenblue.com" target="_blank"><strong> GreenBlue Urban - Booth 406</strong></a> <br>
-         GreenBlue Urban believes in sustainable cities–environmentally, economically and socially sustainable. The company works to help landscape architects and civil engineers accomplish this through the successful design and implementation of green and blue infrastructure. More specifically, it facilitates beneficial ecosystems, allowing trees planted in hard surfaces to reach their full potential. Its research stems back to 1992, when it first introduced ArborSystem to the market. </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a class="logo" href="http://www.harcofittings.com/" target="_blank"><img src="logos/exhibitors/harco.png" alt="Harco Fittings"></a>
-    </td>
-    <td>
-      <p><a href="http://www.harcofittings.com/" target="_blank"><strong> Harco Fittings - Booth 201</strong></a> <br>Harco Fittings is a manufacturer of PVC, Ductile Iron, and PE fittings for the sewer and storm drainage markets.</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a class="logo" href="https://www.hydratmdl.com/" target="_blank"><img src="logos/sponsors/new/hydra.png" alt="Hydra TMDL Systems"></a>
-    </td>
-    <td>
-      <p><a href="https://www.hydratmdl.com/" target="_blank"><strong> Hydra TMDL Systems Inc. - Booth 300</strong></a> <br> 
-      Hydra is a pioneer in the development of storm water trash/debris TMDL reduction devices for storm drain systems. The company is a “one-stop shop” for engineering design, development, testing and manufacturing. With more than 15 years of experience, it received the highest rating ever for trash/debris reduction effectiveness from the city of Los Angeles at 93%. The company’s ARS’s can be made to fit any storm drain Inlet to meet compliance with the Clean Water Act.
-
-</p>
-    </td>
-  </tr>
-	<tr>
-    <td>
-      <a class="logo" href="http://www.il-asla.org" target="_blank"><img src="logos/exhibitors/ILASLA.png" alt="ILASLA - American Society of Landscape Architects, Illinois Chapter"></a>
-    </td>
-    <td>
-      <p><a href="http://www.il-asla.org" target="_blank"><strong>ILASLA - American Society of Landscape Architects, Illinois Chapter</strong></a> <br> 
-     The American Society of Landscape Architects (ASLA) was organized in 1899 as the first professional organization for landscape architects. Today, almost 18,000 landscape architects in public, private and academic practice nationwide are members of the ASLA. Illinois has one of the largest chapters of ASLA in the nation with almost 500 members.
-</p>
-    </td>
-  </tr>
- 
-  
-  <tr>
-    <td>
-      <a class="logo" href="http://www.kuert.com" target="_blank"><img src="logos/sponsors/new/Kuert.png" alt="Kuert Concrete, Inc."></a>
-    </td>
-    <td>
-      <p><a href="http://www.kuert.com" target="_blank"><strong> Kuert Concrete Inc. - Booth 123</strong></a> <br> 
-      Kuert Concrete is proud to introduce Percoa. Percoa is a patented, precast pervious concrete paver and slab that offers exceptional strength with low impact development installation and immediate usability. It is environmentally friendly, durable, versatile, cost-effective, and can be used for new construction or to retrofit existing concrete or asphalt surfaces. Percoa answers many of today’s green storm water infrastructure issues with a phenomenal infiltration rate and minimal maintenance when compared to its permeable counterpart.<br></p>
-	    </td>
-  </tr>
-  <tr>
-    <td>
-      <a class="logo" href="http://www.Medoraco.com" target="_blank"><img src="logos/sponsors/new/Medora.png" alt="Medora Corporation"></a>
-    </td>
-    <td>
-      <p><a href="http://www.Medoraco.com" target="_blank"><strong>Medora Corporation - Booth 316</strong></a> <br> Medora Corp. is improving water quality in thousands of reservoirs and water systems across the U.S. and the world with GridBee and SolarBee equipment. Whether potable, wastewater, lakes and reservoirs, storm water, reuse or industrial, the company has the knowledge and experience to help customers achieve the water quality solutions they need.  </p></td>
-  </tr>
-  
-<tr>
-    <td>
-    <a  class="logo" href="http://www.flexamat.com/" target="_blank"><img src="logos/exhibitors/motz.png" alt="Motz Enterprises, Inc."></a>
-    </td>
-    <td>
-      <p><a href="http://www.flexamat.com" target="_blank"><strong> Motz Enterprises Inc. - Booth 301</strong></a><br>Flexamat is a permanent erosion control mat utilized for stabilizing slopes, channels, low water crossings, inlet/outlet protection and shorelines. It consists of concrete blocks locked together and embedded into a high-strength geogrid. There is spacing between the blocks that gives the mat flexibility and allows for optional vegetation growth. The mat is packaged in rolls, making transporting and installing Flexamat efficient.</p>
-    </td>
-  </tr>  
-  
-  <tr>
-    <td>
-      <a class="logo" href="http://www.proshotconcrete.com" target="_blank"><img src="logos/exhibitors/proshot.png" alt="ProShot Concrete Inc."></a>
-    </td>
-
-    <td>
-      <p><a href="http://www.proshotconcrete.com" target="_blank"><strong>ProShot Concrete Inc. - Booth 122</strong></a><br>
-        Proshot Concrete is a leader in the concrete restoration and emergency pipe lining industry. Its team consists of contractors and engineers that have specialized in concrete renovation and restoration for more than 80 years using the application of gunite, shotcrete and pressure grout, as well as more traditional methods of concrete construction. This combined knowledge and array of skills give the company the ability to tackle the most difficult projects with unique and original solutions. </p>
-    </td>
-  </tr>
-  
-  <!--<tr>  
-    <td>
-      <a class="logo" href="http://www.nedia.com/" target="_blank"><img src="logos/sponsors/silver/nedia.png" alt="Nedia Enterprises"></a>
-    </td>
-    <td>
-      <p><a href="http://www.nedia.com/" target="_blank"><strong>Nedia Enterprises - Booth 219</strong></a><br>Nedia Nedia Enterprises offers a complete line of erosion control, sediment control and bioengineered products made primarily of natural fibers.</p>
-    </td>
-  </tr> -->
- 
-  
-  <tr>
-    <td>
-      <a class="logo" href="http://www.stormguarden.com" target="_blank"><img src="logos/exhibitors/swseng.png" alt="Stormwater Solutions Engineering, LLC"></a>
-    </td>
-    <td>
-      <p><a href="http://www.stormguarden.com" target="_blank"><strong> Stormwater Solutions Eng. LLC - Booth 216</strong></a> <br>
-         Stormwater Solutions Eng. is a storm water engineering firm with its product StormGUARDen. </p></td>
-  </tr>
-  <tr>
-    <td>
-      <a class="logo" href="http://www.stormwaterx.com" target="_blank"><img src="logos/exhibitors/stormwaterx.png" alt="OutPak"></a>
-    </td>
-    <td>
-      <p><a href="http://www.stormwaterx.com" target="_blank"><strong> StormwateRx LLC - Booth 305</strong></a><br>  StormwateRx LLC designs, manufactures, installs and maintains storm water treatment systems to help industrial customers throughout North America meet their storm water quality requirements. The company is committed to producing the most effective storm water filtration and treatment systems on the market.
-</p>
-    </td>
-  </tr> 
-  
-  <tr>
-    <td>
-      <a class="logo" href="http://www.vactor.com" target="_blank"><img src="logos/sponsors/new/Vactor.png" alt="Vactor Manufacturing"></a>
-    </td>
-    <td>
-      <p><a href="http://www.vactor.com" target="_blank"><strong>Vactor Mfg.</strong></a><br>
-      Vactor is the number one supplier of truck-mounted combination sewer and catch basin cleaners, jetters, and hydro-excavators.  With more than 30 years of experience, Vactor  has provided quality solutions to the sewer cleaning industry including powerful jetters and combination units that combine water jetting with vacuum for the most effective sewer cleaning and maintenance available.</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a class="logo" href="http://www.xylem.com" target="_blank"><img src="logos/sponsors/new/xylem.png" alt="Xylem Water Solutions"></a>
-    </td>
-    <td>
-      <p><a href="http://www.xylem.com" target="_blank"><strong>Xylem Water Solutions - Booths 108 and 110</strong></a><br>Xylem Water Solutions is a leading global player in the water business. Its products and integrated solutions make possible the transport and treatment of water and wastewater for customers the world over. Operating in some 140 countries, the company manufactures and markets a comprehensive range of water and drainage pumps. It maintains an extensive sales and after-sales organization, operating both locally and globally.</p>
-    </td>
-  </tr>
-  
-</tbody>
-</table>
-
-
-
-
-
-
-
-
-</div>
-
-
-
-<!-- end of body -->
-
-<!-- footer -->
-
-
-<div id="footercontent">
-  <hr ><br>
-  <div id="footer-left">
-    <img src="images/SWS-cover.jpg" alt="cover" />
+<div id="logo-inner"><a href="index.html"><img class="responsive-img"   src="images/SWS-CE2018-logo-inner.png" alt="SWS Conference & Expo 2018" border="0"></a></div>
+<hr>
+<section id="page-wrap-inner">
+  <div class="grid">
+    <div class="col-1">
+      <h3 class="centered"> Conference Exhibitors</h3>
+      <br>
+		<div class="clear"></div>
+      <div class="partner-logo"><img src="images/AquaShield.jpg" alt="AquaShield Inc." width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+        <h5>AquaShield Inc.</h5>
+        <p>AquaShield Inc. brings years of experience in providing treatment solutions for impaired water resources. The company manufactures a variety of patented products to address most storm water treatment needs within a community or municipality. Its products are custom-engineered to meet site-specific requirements, and its in-house engineers provide personal consultation to help choose the best treatment solution for a community. The company's line of patented storm water treatment products provides several different levels of storm water treatment. </p>
+        <p><a href="http://www.aquashieldinc.com" target="_blank"><strong>www.aquashieldinc.com</strong></a></p>
+      </div>
+      <div class="partner-logo"><img src="images/bio_clean.png" alt="BioClean, A Forterra Co." width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+        <h5>BioClean, A Forterra Co.</h5>
+        <p> Since 1999, Bio Clean has been helping municipalities, engineers, developers, and contractors comply with constantly changing storm water regulations – it has completed 1000’s of installations nationwide. Its product line covers every category of storm water solutions.<br>
+			<strong><em>Booth 315</em></strong></p>
+        <p><a href="http://www.biocleanenvironmental.com" target="_blank"><strong>www.biocleanenvironmental.com</strong></a></p></div>
+			
+         <div class="clear"></div>
+      <div class="partner-logo"><img src="images/blocksom.png" alt="Blocksom & Co." width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+        <h5>Blocksom &amp; Co.</h5>
+        <p>A manufacturer of natural fiber products, Blocksom &amp; Co. provides Inlet Filter, a cost-effective BMP for construction-phase NPDES II compliance.<br></p>
+        <p><a href="http://www.blocksom.com" target="_blank"><strong>www.blocksom.com</strong></a><strong></strong></p>
+      </div>
+      <div class="clear"></div>
+      <div class="partner-logo"><img src="images/countymaterials.png" alt="Country Materials Corp." width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+        <h5>Country Materials Corp.</h5>
+        <p>County Materials Corp. is a Wisconsin-based company that produces and supplies 
+construction and landscaping products throughout the U.S. County Materials was founded in 1946 and is a family-owned company. Products include concrete pipe, manholes, culverts and permeable pavers.<br>
+		    <strong><em>Booth 200</em></strong>
+		  </p>
+        <p><a href="http://www.countymaterials.com" target="_blank"><strong>www.countymaterials.com</strong></a></p>
+      </div>
+      <div class="clear"></div>
+      <div class="partner-logo"><img src="images/Envirolok.png" alt="Trench Drain Systems" width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+        <h5>Envirolok</h5>
+        <p>Envirolok’s patented tan bag technology provides permanent vegetated solutions by combining the engineered strength of soil with the principles of plant ecology. Its non-woven geotextile bags permanently encapsulate soil for maximized stability. Further reinforcement is achieved through the specialized connecting spikes. For more complex projects, the system is easily compatible with geogrid and other anchoring systems. Envirolok is simple and requires no extensive footings or engineered backfill. Minimal excavation allows for easy construction with minimal impact to the land.<br>
+		    <strong><em>Booth 320</em></strong>
+		  </p>
+        <p><a href="http://www.envirolok.com" target="_blank"><strong>www.envirolok.com</strong></a></p>
+      </div>
+      <div class="clear"></div>
+      <div class="partner-logo"><img src="images/feelgood.png" alt="Dandy Products" width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+		  
+        <h5>Feel Good Inc.</h5>
+        <p> Feel Good Inc. provides portable TENS (transcutaneous electrical nerve stimulation) units offering wide variety of benefits, including alleviating back, nerve and diabetic pain and migraines. Our units can also improve circulation, sleep patterns and have been shown to decrease the use of pain relievers that can cause negative side effects.</p>
+		
+        <p><a href="https://www.feelgoodinc.org" target="_blank"><strong>www.feelgoodinc.org</strong></a></p>
+      </div>
+      <div class="clear"></div>
+    </div>
   </div>
-  <div id="footer-right">
-    <p><strong>Our mission:</strong> to provide unique, comprehensive content that covers timely news, storm water and erosion control industry trends, technical solutions and best practices. The editorial staff strives to provide a trusted business platform that effectively connects industry decision-makers and solution providers.</p>
-  </div>
-  <div id="footer-clear">
+			<div class="clear"></div>
+      <div class="partner-logo"><img src="images/Forester.png" alt="Forester Media" width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+		  
+        <h5>Forester Media</h5>
+        <p> Established in 1990, Forester Media publishes a number of websites, digital newsletters and water industry trade publications including Stormwater, the Journal for Surface Water Quality Professionals, and Erosion Control, the Journal for Erosion &amp; Sediment Control Professionals.<br>
+		  <strong><em>Booth 117</em></strong></p>
+        <p><a href="http://www.foresternetwork.com" target="_blank"><strong>www.foresternetwork.com</strong></a></p>
+      </div>
+					<div class="clear"></div>
+      <div class="partner-logo"><img src="images/FrogCreekPartners.png" alt="Frog Creek Partners" width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+		  
+        <h5>Frog Creek Partners</h5>
+        <p>Frog Creek Partners is an environmental technology company that specializes in storm water filtration products, pollution data services and raising awareness to protect Earth’s most valuable resource: water.<br>
+		  <strong><em>Booth 106</em></strong></p>
+        <p><a href="http://www.FrogCreek.partners" target="_blank"><strong>www.FrogCreek.partners</strong></a></p>
+      </div>
+      <div class="clear"></div>
+			<div class="partner-logo"><img src="images/GBU.png" alt="GreenBlue Urban" width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+		  
+        <h5>GreenBlue Urban</h5>
+        <p>GreenBlue Urban believes in sustainable cities–environmentally, economically and socially sustainable. The company works to help landscape architects and civil engineers accomplish this through the successful design and implementation of green and blue infrastructure. More specifically, it facilitates beneficial ecosystems, allowing trees planted in hard surfaces to reach their full potential. Its research stems back to 1992, when it first introduced ArborSystem to the market.<br>
+		  <strong><em>Booth 406</em></strong></p>
+        <p><a href="http://www.greenblue.com" target="_blank"><strong>www.greenblue.com</strong></a></p>
+      </div>
+      <div class="clear"></div>
+      <div class="partner-logo"><img src="images/harco.png" alt="Harco Fittings" width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+		  
+        <h5>Harco Fittings</h5>
+        <p>Harco Fittings is a manufacturer of PVC, Ductile Iron, and PE fittings for the sewer and storm drainage markets.<br>
+			  <strong><em>Booth 201</em></strong></p>
+        <p><a href="http://www.harcofittings.com/" target="_blank"><strong>www.harcofittings.com</strong></a></p>
+      </div>
+									  <div class="clear"></div>
+      <div class="partner-logo"><img src="images/hydra.png" alt="CBI Systems" width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+		  
+        <h5>Hydra TMDL Systems Inc.</h5>
+        <p>Hydra is a pioneer in the development of storm water trash/debris TMDL reduction devices for storm drain systems. The company is a “one-stop shop” for engineering design, development, testing and manufacturing. With more than 15 years of experience, it received the highest rating ever for trash/debris reduction effectiveness from the city of Los Angeles at 93%. The company’s ARS’s can be made to fit any storm drain Inlet to meet compliance with the Clean Water Act.<br>
+		  <strong><em>Booth 300</em></strong></p>
+        <p><a href="https://www.hydratmdl.com/" target="_blank"><strong>www.hydratmdl.com</strong></a></p>
+      </div>
+										  <div class="clear"></div>
+      <div class="partner-logo"><img src="images/ILASLA.png" alt="ILASLA - American Society of Landscape Architects, Illinois Chapter" width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+		  
+        <h5>ILASLA - American Society of Landscape Architects, Illinois Chapter</h5>
+        <p> The American Society of Landscape Architects (ASLA) was organized in 1899 as the first professional organization for landscape architects. Today, almost 18,000 landscape architects in public, private and academic practice nationwide are members of the ASLA. Illinois has one of the largest chapters of ASLA in the nation with almost 500 members.<br>
+		  	<strong><em>Booth 302</em></strong></p>
+        <p><a href="https://www.il-asla.org" target="_blank"><strong>www.il-asla.org</strong></a></p>
+      </div>
 
-    <div id="footer-clear-left"><p class="links">Copyright&copy; 2018 Scranton Gillette Communications</p></div>
-    <div id="footer-clear-right"><p class="links"><a href="http://www.estormwater.com" target="_blank" class="blue">Estormwater.com</a> / <a href="https://www.eiseverywhere.com/file_uploads/e1b0dd16c9ebddba9ac21a0e9f845751_SGC.SGCHorizonEventsPolicies.pdf" target="_blank" class="blue">Event Policy</a> / <a href="http://www.scrantongillette.com/" target="_blank" class="blue">Scranton Gillette Communications</a></p></div>
-  </div>
-</div>
-<!-- end of footer -->
-
-</div>
-
+									 								  <div class="clear"></div>
+      <div class="partner-logo"><img src="images/Kuert.png" alt="Contech Engineered Solutions" width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+		  
+        <h5>Kuert Concrete Inc.</h5>
+        <p>Kuert Concrete is proud to introduce Percoa. Percoa is a patented, precast pervious concrete paver and slab that offers exceptional strength with low impact development installation and immediate usability. It is environmentally friendly, durable, versatile, cost-effective, and can be used for new construction or to retrofit existing concrete or asphalt surfaces. Percoa answers many of today’s green storm water infrastructure issues with a phenomenal infiltration rate and minimal maintenance when compared to its permeable counterpart.<br>
+		  <strong><em>Booth 123</em></strong></p>
+        <p><a href="http://www.kuert.com" target="_blank"><strong>www.kuert.com</strong></a></p>
+      </div>
+									   <div class="clear"></div>
+      <div class="partner-logo"><img src="images/Medora.png" alt="Medora Corp." width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+		  
+        <h5>Medora Corp.</h5>
+        <p>Medora Corp. is improving water quality in thousands of reservoirs and water systems across the U.S. and the world with GridBee and SolarBee equipment. Whether potable, wastewater, lakes and reservoirs, storm water, reuse or industrial, the company has the knowledge and experience to help customers achieve the water quality solutions they need.  <br>
+		  <strong><em>Booth 316</em></strong></p>
+        <p><a href="http://www.Medoraco.com" target="_blank"><strong>www.Medoraco.com</strong></a></p>
+      </div>
+									  <div class="clear"></div>
+      <div class="partner-logo"><img src="images/motz.png" alt="Motz Enterprises Inc." width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+		  
+        <h5>Motz Enterprises Inc.</h5>
+        <p>Flexamat is a permanent erosion control mat utilized for stabilizing slopes, channels, low water crossings, inlet/outlet protection and shorelines. It consists of concrete blocks locked together and embedded into a high-strength geogrid. There is spacing between the blocks that gives the mat flexibility and allows for optional vegetation growth. The mat is packaged in rolls, making transporting and installing Flexamat efficient.<br>
+		  <strong><em>Booth 301</em></strong></p>
+        <p><a href="http://www.flexamat.com" target="_blank"><strong>www.flexamat.com</strong></a></p>
+      </div>
+									 <div class="clear"></div>
+      <div class="partner-logo"><img src="images/proshot.png" alt="ProShot Concrete Inc." width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+		  
+        <h5>ProShot Concrete Inc.</h5>
+        <p>Proshot Concrete is a leader in the concrete restoration and emergency pipe lining industry. Its team consists of contractors and engineers that have specialized in concrete renovation and restoration for more than 80 years using the application of gunite, shotcrete and pressure grout, as well as more traditional methods of concrete construction. This combined knowledge and array of skills give the company the ability to tackle the most difficult projects with unique and original solutions. <br>
+		  <strong><em>Booth 122</em></strong></p>
+        <p><a href="http://www.proshotconcrete.com" target="_blank"><strong>www.proshotconcrete.com</strong></a></p>
+      </div>
+									  <div class="clear"></div>
+      <div class="partner-logo"><img src="images/swseng.png" alt="Stormwater Solutions Eng. LLC" width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+		  
+        <h5>Stormwater Solutions Eng. LLC</h5>
+        <p>Stormwater Solutions Eng. is a storm water engineering firm with its product StormGUARDen.<br>
+		  <strong><em>Booth 216</em></strong></p>
+        <p><a href="http://www.stormguarden.com" target="_blank"><strong>www.stormguarden.com</strong></a></p>
+      </div>
+									  <div class="clear"></div>
+      <div class="partner-logo"><img src="images/stormwaterx.png" alt="StormwateRx LLC" width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+		  
+        <h5>StormwateRx LLC</h5>
+        <p>StormwateRx LLC designs, manufactures, installs and maintains storm water treatment systems to help industrial customers throughout North America meet their storm water quality requirements. The company is committed to producing the most effective storm water filtration and treatment systems on the market.<br>
+		  <strong><em>Booth 305</em></strong></p>
+        <p><a href="http://www.stormwaterx.com" target="_blank"><strong>www.stormwaterx.com</strong></a></p>
+      </div>
+									  <div class="clear"></div>
+      <div class="partner-logo"><img src="images/Vactor.png" alt="Vactor Mfg." width="200" height="200" class="responsive-img"/> </div>
+      <div class="partner-text">
+		  
+        <h5>Vactor Mfg.</h5>
+        <p>Vactor is the number one supplier of truck-mounted combination sewer and catch basin cleaners, jetters, and hydro-excavators.  With more than 30 years of experience, Vactor  has provided quality solutions to the sewer cleaning industry including powerful jetters and combination units that combine water jetting with vacuum for the most effective sewer cleaning and maintenance available.</p>
+        <p><a href="http://www.vactor.com" target="_blank"><strong>www.vactor.com</strong></a></p>
+      </div>
+									 	  <div class="clear"></div>
+      <div class="partner-logo"><img src="images/xylem.png" alt="Xylem Water Solutions" width="200" height="200" class="responsive-img"/></div>
+      <div class="partner-text">
+		  
+        <h5>Xylem Water Solutions</h5>
+        <p>Xylem Water Solutions is a leading global player in the water business. Its products and integrated solutions make possible the transport and treatment of water and wastewater for customers the world over. Operating in some 140 countries, the company manufactures and markets a comprehensive range of water and drainage pumps. It maintains an extensive sales and after-sales organization, operating both locally and globally.<br>
+		   <strong><em>Booths 108 and 110</em></strong></p>
+        <p><a href="http://www.xylem.com" target="_blank"><strong>www.xylem.com</strong></a></p>
+      </div>
+  <hr>
+  <footer>
+    <p>&reg;  Copyright 2018 <em>Professional Builder</em>. All Rights Reserved. SGC Horizon <a href="SGC Event Policy.pdf" target="_blank">Event Policy</a></p>
+  </footer>
+</section>
+</body>
 <script>
 
-  
-  /* When the user clicks on the button, 
+
+  /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -467,6 +308,4 @@ window.onclick = function(event) {
 }
 </script>
 
-</body>
 </html>
-
