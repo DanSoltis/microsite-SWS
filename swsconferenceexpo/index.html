@@ -1309,7 +1309,7 @@ video::-webkit-media-text-track-display {
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 	<link href="css/dropdown.css" rel="stylesheet" type="text/css">
-	<link rel="shortcut icon" href="/sites/sws/themes/mdl/images/favicon.ico" type="image/vnd.microsoft.icon" />
+	<link rel="shortcut icon" href="https://www.estormwater.com/sites/sws/themes/mdl/images/favicon.ico" type="image/vnd.microsoft.icon" />
 
   <!-- JQ -->
 
@@ -1318,7 +1318,23 @@ video::-webkit-media-text-track-display {
   <script>
     $(window).load(function(){
       $("#header").sticky({ topSpacing: 0 });
+
+
+      $(".menu-button").click(function(e){
+
+        if ($("nav").hasClass("popout")) {
+          $(".popout").removeClass("popout");
+          $(this).removeClass("menu-open");
+        }
+        else {
+          $("nav").addClass("popout");
+          $(this).addClass("menu-open");
+        }
+        
+      });
+
     });
+
   </script>
 
   <!--[if IE]>  
@@ -1334,8 +1350,8 @@ video::-webkit-media-text-track-display {
 
   <body>
 <header>
-    <div id="header-sticky-wrapper" class="sticky-wrapper" style="height: 60px;"><div id="header" style="width: 1600px;">
-    <nav> <a href="#" id="menu-icon"></a>
+    <div id="header-sticky-wrapper" class="sticky-wrapper" style="height: 60px;"><div id="header">
+    <nav> <a href="#" id="menu-icon" class="menu-button"></a>
         <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="agenda.html">Agenda</a></li>

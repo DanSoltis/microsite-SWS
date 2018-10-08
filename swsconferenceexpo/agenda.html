@@ -12,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="css/styles.css" />
 <link href="https://fonts.googleapis.com/css?family=Gudea:400,400i,700" rel="stylesheet">
 		<link href="css/dropdown.css" rel="stylesheet" type="text/css">
-	<link rel="shortcut icon" href="/sites/sws/themes/mdl/images/favicon.ico" type="image/vnd.microsoft.icon" />
+	<link rel="shortcut icon" href="https://www.estormwater.com/sites/sws/themes/mdl/images/favicon.ico" type="image/vnd.microsoft.icon" />
 
 <!-- JQ -->
 
@@ -20,7 +20,20 @@
 <script type="text/javascript" src="jquery.sticky.js"></script>
 <script>
     $(window).load(function(){
-      $("#header").sticky({ topSpacing: 0 });
+
+      $(".menu-button").click(function(e){
+
+        if ($("nav").hasClass("popout")) {
+          $(".popout").removeClass("popout");
+          $(this).removeClass("menu-open");
+        }
+        else {
+          $("nav").addClass("popout");
+          $(this).addClass("menu-open");
+        }
+        
+      });
+
     });
   </script>
 
@@ -47,7 +60,7 @@
 
 <body>
 <div id="header">
-    <nav> <a href="#" id="menu-icon"></a>
+    <nav> <a href="#" id="menu-icon" class="menu-button"></a>
         <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="agenda.html">Agenda</a></li>

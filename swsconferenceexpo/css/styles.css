@@ -20,6 +20,9 @@ body {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
+nav {
+    max-width: 100%;
+}
 nav ul {
     list-style: none;
 }
@@ -130,7 +133,7 @@ nav ul {
 }
 nav li {
     float: left;
-    margin-right: 50px;
+    margin: 0 calc((100% - 780px) / 16);
 	
 }
 .current {
@@ -223,7 +226,7 @@ header {
 #hero li {
     display: inline-block;
     margin: 35px;
-    font-size: 28px;
+    font-size: 25px;
 }
 .register-btn {
     background-color: #448dc7;
@@ -590,7 +593,30 @@ footer p {
 
 
 /* RESPONSIVE */
+@media screen and (max-width: 950px) {
+    nav{
+        height: 75px;
+    }
+
+    nav li{
+        margin-right: calc((100% - 402px) / 8);
+        margin-left: 0;
+    }
+
+    #hero h1{
+        font-size: 46px;
+    }
+
+    #hero li{
+        font-size: 20px;
+        margin: 25px;
+    }
+}
+
 @media screen and (max-width: 480px) {
+nav{
+    height: 60px;
+}
 .col {
     padding: 0px;
 }
@@ -625,7 +651,7 @@ footer p {
     height: auto;
 }
 #hero h1 {
-    font-size: 42px;
+    font-size: 34px;
     width: 100%
 }
 #hero h2 {
@@ -729,7 +755,7 @@ nav li {
     padding-bottom: 10px;
     padding-left: 0;
 }
-nav:hover ul {
+nav.popout ul {
     display: block;
 	
 }
@@ -751,7 +777,7 @@ nav:hover ul {
     padding: 15px;
 }
 #hero h1 {
-    font-size: 50px;
+    font-size: 34px;
     width: 100%
 }
 #hero h2 {
@@ -804,6 +830,7 @@ nav:hover ul {
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+
 .col-1-4 {
     width: 33.33%;
 }
@@ -969,7 +996,6 @@ figure.slider figure figcaption {
     padding-right: 37.5px; */
     border: none;
     cursor: pointer;
-	margin-right: 10px;
 	border-bottom: 1px solid #fff;
 }
 
@@ -1007,7 +1033,7 @@ button {
     display: none;
     position: relative;
     background-color: rgb(0, 101, 166);
-    max-width: 176px;
+    max-width: 192px;
     z-index: 999;
     border: none;
 }
@@ -1048,7 +1074,7 @@ border-bottom: 1px solid #fff}
 
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;
+.show {display:block; position: absolute;
 z-index: 999;}
 
 
